@@ -23,7 +23,11 @@
             <name>org.clapper Maven Repo</name>
             <url>http://maven.clapper.org/</url>
             <layout>default</layout>
-        </repository>                     
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>                               
     </repositories>  
     <groupId>eu.ascetic.utils</groupId>
     <artifactId>ovf-xmlbeans-api</artifactId>
@@ -33,22 +37,6 @@
         <name>University of Leeds</name>
         <url>http://www.leeds.ac.uk/</url>
     </organization>
-    <ciManagement>
-        <system>hudson</system>
-        <url>https://ascetic-jenkins.cit.tu-berlin.de/job/${jenkins.project.name}</url>
-        <notifiers>
-            <notifier>
-                <type>mail</type>
-                <configuration>
-                    <recipients>scsdja@leeds.ac.uk</recipients>
-                </configuration>
-                <sendOnError>true</sendOnError>
-                <sendOnFailure>true</sendOnFailure>
-                <sendOnSuccess>false</sendOnSuccess>
-                <sendOnWarning>false</sendOnWarning>
-            </notifier>
-        </notifiers>
-    </ciManagement>
     <dependencies>
         <dependency>
 	    <groupId>com.github.TANGO-Project</groupId>
