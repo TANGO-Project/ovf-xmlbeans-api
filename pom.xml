@@ -51,10 +51,10 @@
     </ciManagement>
     <dependencies>
         <dependency>
-            <groupId>eu.ascetic.utils</groupId>
-            <artifactId>ovf-xmlbeans</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+	    <groupId>com.github.TANGO-Project</groupId>
+	    <artifactId>ovf-xmlbeans</artifactId>
+	    <version>0.0.1</version>
+	</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
